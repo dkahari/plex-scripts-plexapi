@@ -122,3 +122,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore local playlist config with secrets
+playlist_config.local.json
+exports/
+
+# Optionally ignore the user-level or example files
+# playlist_config.json
+# playlist_config.local.json.example
